@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* body{
+            max-width: 1300px;
+        } */
+        #layout1{
+               display: grid;
+               gap: 25px;
+               grid-template: "item2  item1"
+                              "item2 right"
+                              "item2 right1"
+                              "right3 right2";
+           }
+           #item1{
+               height: 120px;
+               /* width: 100%; */
+               border:1px solid white;
+               grid-area: item1
+           }
+           #item2{
+            height: 431px;
+               border:1px solid  white;
+               background-color:teal;
+               color: white;
+               grid-area: item2
+           }
+           #right{
+                height: 120px;
+                /* width: 100%; */
+               border:1px solid white;
+               grid-area: right
+           }
+           #right1{
+                height: 120px;
+                /* width: 100%; */
+               border:1px solid white;
+               grid-area: right1
+           }
+           #right2{
+                height: 120px;
+                /* width: 100%; */
+               border:1px solid white;
+               grid-area: right2
+           }
+           #right3{
+                height: 120px;
+                /* width: 100%; */
+               border:1px solid white;
+               grid-area: right3
+           }
+           .pic{
+               height: 100%;
+               width: 30%;
+               border: 1px solid white;
+               float: left;
+           }
+           .comment{
+               height: 100%;
+               width: 65%;
+
+               border: 1px solid white;
+               float: left;
+           }
+           .pic img{
+               width:100%;
+               height: 100%;
+           }
+           #item2 img{
+               width:100%;
+               height: 50%;
+           }
+           h4{
+               color:steelblue
+           }
+          
+        @media(max-width:700px){
+            #layout1{
+                grid-template: "item2 item2"
+                               "item1 right"
+                               "right1 right2"
+                               "right3 right3";
+            }
+        }
+        @media(max-width:480px){
+            #layout1{
+                grid-template: "item2"
+                "item1"
+                "right"
+                "right1"
+                "right2"
+                "right3";
+            }
+        }
+        
+     </style>
+</head>
+<body>
+    <body>
+        <hr class="clear">
+   <div id="layout1">
+           <div id="item1">
+            <div class="pic">
+                <img src="https://d2v9ipibika81v.cloudfront.net/uploads/sites/71/D9_a2JuX4AEu4Cd-1140x684.jpg" alt="forien minister">
+            </div>
+            <div class="comment">
+                <h4>THE HUDDLE</h4>
+                <div>The Huddle 2020 | Regional integration Pagged to SAARC revival,say Ranil Wikremesignghe</div>
+            </div>
+           </div>
+           <div id="item2">
+            <img src="https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2020/02/23/112333-moditrump.jpg?itok=cljgH33w" alt="trump"> 
+            <h3>Ahmadabad joint relly joint with Trump will be historic say Modi</h3>
+             <h5>KALLOL NHTTACHERJEE<br> SUSHASINI HAIDER</h5>
+             <p>U.S president to visit sabermati Ashram a hesd of 'Namste Trump' event</p>
+           </div>
+            <div id="right">
+                <div class="pic">
+                    <img src="https://cdn-res.keymedia.com/cms/images/au/130/0314_637269086154300500.jpg" alt="classroom">
+                </div>
+               <div class="comment">
+                <h4>NATIONAL</h4>
+                <p>Over 10 Lakh Kasmiri student to don school uniform after seven month</p>
+               </div>
+            </div>
+            <div id="right1">
+                <div class="pic">
+                    <img src="https://images.hindustantimes.com/rf/image_size_630x354/HT/p2/2019/12/20/Pictures/us-india_af4e82e6-22fd-11ea-8c10-7db3e225203f.jpg" alt="jaisankar">
+                </div>
+               <div class="comment">
+                <h4>NATIONAL</h4>
+                <p>Some restriction imposed on export of medical equipment to china, says MEA</p>
+               </div>
+            </div>
+           <div id="right2">
+            <div class="pic">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIfxX-izqytwYNjc3JF1vWVv1KAV8HFzwX5w&usqp=CAU" alt="Caa">
+            </div>
+            <div class="comment">
+                <h4>NATIONAL</h4>
+                <p>Ahmadabad glitter to welcome Donald Trump</p> 
+            </div>
+           </div>
+           <div id="right3">
+            <div class="pic">
+                <img src="https://www.therahnuma.com/wp-content/uploads/2020/11/5ae7692be7d6a2336f11797b4d146958.jpg" alt="tejsewi">
+            </div>
+            <div class="comment">
+                <h4>THE HUDDLE</h4>
+                    <p>Only a "microscopic minority" Pritestion against CAA:Tejaswi surya</p> 
+           </div>
+         </div>
+    </div>
+    </body>
+</body>
+</html>
